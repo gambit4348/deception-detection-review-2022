@@ -1,5 +1,5 @@
 # deception-detection-review-2022
-# Deception Detection with Machine Learning: aliterature review and statistical analisys
+# Deception Detection with Machine Learning: a literature review and statistical analisys
 ## Literature review
 ### Introduction
 The files present in this repository are part of the Literature Review Project and aim to disclose the data collected along the process, and work as a memory of all the steps taken as well.
