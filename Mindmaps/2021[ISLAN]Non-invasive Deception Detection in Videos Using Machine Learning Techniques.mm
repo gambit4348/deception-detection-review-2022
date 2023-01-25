@@ -1,0 +1,196 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1612995774812" ID="ID_1608470301" MODIFIED="1621614907224">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: center">
+      Study on
+    </p>
+    <p style="text-align: center">
+      Deception Detection
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1612995856475" HGAP="46" ID="ID_1162388674" MODIFIED="1618591996936" POSITION="right" TEXT="was published in" VSHIFT="24">
+<node CREATED="1613073545644" ID="ID_961074691" MODIFIED="1653403125652" STYLE="bubble" TEXT="2021"/>
+</node>
+<node CREATED="1613039826013" HGAP="32" ID="ID_1687566837" MODIFIED="1628884530618" POSITION="right" TEXT="uses a dataset" VSHIFT="-6">
+<node CREATED="1613040138681" HGAP="22" ID="ID_1186329212" MODIFIED="1653911541574" STYLE="bubble" TEXT="with 325 examples" VSHIFT="-1"/>
+<node CREATED="1613040155698" HGAP="22" ID="ID_1751447797" MODIFIED="1653911574541" STYLE="bubble" VSHIFT="2">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from videos extracted from the Bag-of-lies dataset
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1613040410819" HGAP="25" ID="ID_376667968" MODIFIED="1628884525446" STYLE="bubble" TEXT="manually annotated with 2 classes: truth/lie" VSHIFT="1"/>
+<node CREATED="1612995877928" HGAP="25" ID="ID_851863342" MODIFIED="1621614929695" STYLE="bubble" TEXT="Composed" VSHIFT="-5">
+<node CREATED="1612996218380" ID="ID_1084427426" MODIFIED="1621614933981" STYLE="fork" TEXT="by">
+<node CREATED="1613473273471" HGAP="18" ID="ID_841433797" MODIFIED="1653681865914" STYLE="bubble" TEXT="visual cues">
+<node CREATED="1613476295226" ID="ID_1230919079" MODIFIED="1621614959647" STYLE="fork" TEXT="described by">
+<node CREATED="1613476305018" ID="ID_1513396960" MODIFIED="1653911630511" STYLE="bubble" TEXT="5 Facial expressions features"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1613039971343" HGAP="25" ID="ID_1196706136" MODIFIED="1621614997784" POSITION="left" TEXT="applies method" VSHIFT="7">
+<node CREATED="1613074729144" ID="ID_1280422780" MODIFIED="1653911770408" STYLE="bubble" TEXT="Random Forest">
+<node CREATED="1613681828801" ID="ID_1868812214" MODIFIED="1621882249203" STYLE="fork" TEXT="with accuracy of">
+<node CREATED="1613681834136" ID="ID_941282514" MODIFIED="1653911780068" STYLE="bubble" TEXT="0.5677"/>
+</node>
+<node CREATED="1613681828801" ID="ID_407059321" MODIFIED="1653911658352" STYLE="fork" TEXT="with F1-score of">
+<node CREATED="1613681834136" ID="ID_1205789360" MODIFIED="1653911787310" STYLE="bubble" TEXT="0.5854"/>
+</node>
+<node CREATED="1613681828801" ID="ID_954877651" MODIFIED="1653911664592" STYLE="fork" TEXT="with precision of">
+<node CREATED="1613681834136" ID="ID_1659380258" MODIFIED="1653911795621" STYLE="bubble" TEXT="0.5443"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1736252766" MODIFIED="1653911672789" STYLE="fork" TEXT="with recall of">
+<node CREATED="1613681834136" ID="ID_805703488" MODIFIED="1653911803088" STYLE="bubble" TEXT="0.6488"/>
+</node>
+<node CREATED="1613681828801" ID="ID_979092336" MODIFIED="1653911650702" STYLE="fork" TEXT="provided by">
+<node CREATED="1613681834136" ID="ID_1429818926" MODIFIED="1653682062113" STYLE="bubble" TEXT="Scikit-learn"/>
+</node>
+</node>
+<node CREATED="1613074729144" ID="ID_1284916722" MODIFIED="1653911814878" STYLE="bubble" TEXT="Decision Tree">
+<node CREATED="1613681828801" ID="ID_170512620" MODIFIED="1621882249203" STYLE="fork" TEXT="with accuracy of">
+<node CREATED="1613681834136" ID="ID_710983592" MODIFIED="1653911824652" STYLE="bubble" TEXT="0.5708"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1590699499" MODIFIED="1653911658352" STYLE="fork" TEXT="with F1-score of">
+<node CREATED="1613681834136" ID="ID_855765956" MODIFIED="1653911831623" STYLE="bubble" TEXT="0.5932"/>
+</node>
+<node CREATED="1613681828801" ID="ID_970546570" MODIFIED="1653911664592" STYLE="fork" TEXT="with precision of">
+<node CREATED="1613681834136" ID="ID_56029217" MODIFIED="1653911839809" STYLE="bubble" TEXT="0.5329"/>
+</node>
+<node CREATED="1613681828801" ID="ID_217416613" MODIFIED="1653911672789" STYLE="fork" TEXT="with recall of">
+<node CREATED="1613681834136" ID="ID_1382713934" MODIFIED="1653911847544" STYLE="bubble" TEXT="0.6742"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1100844833" MODIFIED="1653911650702" STYLE="fork" TEXT="provided by">
+<node CREATED="1613681834136" ID="ID_744774621" MODIFIED="1653682062113" STYLE="bubble" TEXT="Scikit-learn"/>
+</node>
+</node>
+<node CREATED="1613074729144" ID="ID_285323419" MODIFIED="1654103237539" STYLE="bubble" TEXT="SVM-Linear">
+<node CREATED="1613681828801" ID="ID_340110344" MODIFIED="1621882249203" STYLE="fork" TEXT="with accuracy of">
+<node CREATED="1613681834136" ID="ID_91041730" MODIFIED="1653911868052" STYLE="bubble" TEXT="0.6154"/>
+</node>
+<node CREATED="1613681828801" ID="ID_165821266" MODIFIED="1653911658352" STYLE="fork" TEXT="with F1-score of">
+<node CREATED="1613681834136" ID="ID_1523696628" MODIFIED="1653911871872" STYLE="bubble" TEXT="0.6285"/>
+</node>
+<node CREATED="1613681828801" ID="ID_556842365" MODIFIED="1653911664592" STYLE="fork" TEXT="with precision of">
+<node CREATED="1613681834136" ID="ID_542838152" MODIFIED="1653911880368" STYLE="bubble" TEXT="0.5758"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1246769674" MODIFIED="1653911672789" STYLE="fork" TEXT="with recall of">
+<node CREATED="1613681834136" ID="ID_402311966" MODIFIED="1653911889160" STYLE="bubble" TEXT="0.6972"/>
+</node>
+<node CREATED="1613681828801" ID="ID_682580466" MODIFIED="1653911650702" STYLE="fork" TEXT="provided by">
+<node CREATED="1613681834136" ID="ID_1623834042" MODIFIED="1653682062113" STYLE="bubble" TEXT="Scikit-learn"/>
+</node>
+</node>
+<node CREATED="1613074729144" ID="ID_1857737417" MODIFIED="1653911900758" STYLE="bubble" TEXT="Logistic Regression">
+<node CREATED="1613681828801" ID="ID_1220527943" MODIFIED="1621882249203" STYLE="fork" TEXT="with accuracy of">
+<node CREATED="1613681834136" ID="ID_1298640335" MODIFIED="1653911908728" STYLE="bubble" TEXT="0.6000"/>
+</node>
+<node CREATED="1613681828801" ID="ID_402140485" MODIFIED="1653911658352" STYLE="fork" TEXT="with F1-score of">
+<node CREATED="1613681834136" ID="ID_1697529039" MODIFIED="1653911918536" STYLE="bubble" TEXT="0.5927"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1196340470" MODIFIED="1653911664592" STYLE="fork" TEXT="with precision of">
+<node CREATED="1613681834136" ID="ID_605467364" MODIFIED="1653911925508" STYLE="bubble" TEXT="0.5677"/>
+</node>
+<node CREATED="1613681828801" ID="ID_628441444" MODIFIED="1653911672789" STYLE="fork" TEXT="with recall of">
+<node CREATED="1613681834136" ID="ID_181604334" MODIFIED="1653911932728" STYLE="bubble" TEXT="0.6253"/>
+</node>
+<node CREATED="1613681828801" ID="ID_958600558" MODIFIED="1653911650702" STYLE="fork" TEXT="provided by">
+<node CREATED="1613681834136" ID="ID_1753010055" MODIFIED="1653682062113" STYLE="bubble" TEXT="Scikit-learn"/>
+</node>
+</node>
+<node CREATED="1613074729144" ID="ID_1436971727" MODIFIED="1653911940687" STYLE="bubble" TEXT="KNN">
+<node CREATED="1613681828801" ID="ID_1911532756" MODIFIED="1621882249203" STYLE="fork" TEXT="with accuracy of">
+<node CREATED="1613681834136" ID="ID_824479613" MODIFIED="1653911949065" STYLE="bubble" TEXT="0.5723"/>
+</node>
+<node CREATED="1613681828801" ID="ID_432387783" MODIFIED="1653911658352" STYLE="fork" TEXT="with F1-score of">
+<node CREATED="1613681834136" ID="ID_1831717871" MODIFIED="1653911958059" STYLE="bubble" TEXT="0.4930"/>
+</node>
+<node CREATED="1613681828801" ID="ID_160292071" MODIFIED="1653911664592" STYLE="fork" TEXT="with precision of">
+<node CREATED="1613681834136" ID="ID_187724932" MODIFIED="1653911966560" STYLE="bubble" TEXT="0.5779"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1681199510" MODIFIED="1653911672789" STYLE="fork" TEXT="with recall of">
+<node CREATED="1613681834136" ID="ID_1209992726" MODIFIED="1653911974280" STYLE="bubble" TEXT="0.4429"/>
+</node>
+<node CREATED="1613681828801" ID="ID_1777060697" MODIFIED="1653911650702" STYLE="fork" TEXT="provided by">
+<node CREATED="1613681834136" ID="ID_1412217293" MODIFIED="1653682062113" STYLE="bubble" TEXT="Scikit-learn"/>
+</node>
+</node>
+</node>
+<node CREATED="1618592872925" ID="ID_1561590355" MODIFIED="1623431447036" POSITION="left" TEXT="contributes by">
+<node CREATED="1618592894401" HGAP="23" ID="ID_102076440" MODIFIED="1653911694786" STYLE="bubble" VSHIFT="1">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proposing an framework and an algorithm to find de Apex video frame
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1618592894401" ID="ID_719530229" MODIFIED="1653911720908" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proposing a method to find the best features to be submitted to a
+    </p>
+    <p>
+      Machine Learning algorithm
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1618595050108" ID="ID_801076736" MODIFIED="1652878547112" POSITION="left" TEXT="concludes that" VSHIFT="-7">
+<node CREATED="1618595058137" HGAP="23" ID="ID_971574549" MODIFIED="1653911743837" STYLE="bubble" VSHIFT="1">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The best features are related to AU12, AU14 and AU23, all
+    </p>
+    <p>
+      mouth Action Units
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1621615152253" HGAP="22" ID="ID_100920964" MODIFIED="1628884532462" POSITION="right" TEXT="hypothesizes that" VSHIFT="-6">
+<node CREATED="1621615163848" ID="ID_251113237" MODIFIED="1653911611358" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Apex video frame can identify the best micro-expressions for
+    </p>
+    <p>
+      Deception Detection
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</map>
