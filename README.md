@@ -6,8 +6,6 @@ The files present in this repository are part of the Literature Review Project a
 
 Currently, the manuscript of the scientific article that discusses the consequences and findings of the Literature Review was submitted to the Scientific Journal PLOS One (https://journals.plos.org/plosone/) and is waiting for a response from the peer reviewers.
 
-The period of interest of this review is 2011-2021.
-
 ### Research team and contribution
 #### Conceptualization
 1.	Alex Sebastião Constâncio
@@ -41,13 +39,19 @@ The period of interest of this review is 2011-2021.
 ## Research scope and objectives
 ### 1. Research goals
 The goal of this literature review is to capture a panoramic view of the state of research on Deception Detection supported by Machine Learning, in order to be able to understand trends, results and gaps on the field.
-### 2. Research question
-What are the state, the main trends and the opportunities for further research on Deception Detection supported by Machine Learning based on what was produced in the period of 2010 to 2020?
-3. Research restrictions
-1.	Period of interest is 2010-2020;
+### 2. Research questions
+
+a. What are the best-performing Machine Learning techniques applied to automatic deception detection?
+
+b. What are the datasets and features they consume?
+
+c. What level of performance have they reached recently?
+
+### 3. Research restrictions
+1.	Period of interest is 2011-2021;
 2.	Only non-invasive methods and techniques will be reviewed; by non-invasive, we mean methods that absolutely do not touch the subject nor submit him/her to be evaluated by an equipment less mobile then a regular computer;
 3.	Only studies that report some kind of performance level achieved.
-### Research protocol
+### 4. Research protocol
 1.	Run queries on selected scientific document bases:
 2.	Export results as BibTeX files
 3.	Import all BibTeX files into BiblioAlly; those documents are tagged as "IMPORTED" or "DUPLICATE"
@@ -57,15 +61,15 @@ What are the state, the main trends and the opportunities for further research o
 7.	Select articles by deep screening
 8.	Extract relevant data from accepted documents
 9.	Run a meta-analysis and generate charts and tables
-### Data extraction
+### 5. Data extraction
 After reading the full text of selected papers, each were summarized in two forms:
 1.	Mind map: a graphical summarized form of the study;
 2.	Python dictionary: an encoded version of the extracted meta-data of interest that can be further computed to produce statistics, charts and tables.
 Details on each one below.
-### Mind maps
+### 6. Mind maps
 Mind maps are FreeMind documents, manually produced, since BiblioAlly still can't do it automatically (for now we can dream about it, right?). Those mind maps were built to serve as a quick and short summary of the entire article and helped during reading and reviewing their full text.
 Those maps describe the study hypothesis, the contributions, the dataset, the feature modalities, the methods used, and the performance achieved.
-### Meta-data encoding
+### 7. Meta-data encoding
 Each article was structured as follows:
 1.	document_id: the document id in the BiblioAlly database;
 2.	methods: list of methods and tools used in the paper, each item is described as classifier or support:
